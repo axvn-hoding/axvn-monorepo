@@ -1,0 +1,14 @@
+{
+  "name": "@axvn-hoding/demo-node-backend",
+  "version": "1.0.0-alpha.1",
+  "private": true,
+  "description": "Ví dụ Node.js Express xử lý Webhook Casso On-Ramp",
+  "scripts": {
+    "build": "echo 'Building demo-node-backend...'",
+    "dev": "echo 'Starting dev server for demo-node-backend...'"
+  },
+  "dependencies": {
+    "@axvn-hoding/sdk": "workspace:*",
+    "@axvn-hoding/ui": "workspace:*"
+  }
+}

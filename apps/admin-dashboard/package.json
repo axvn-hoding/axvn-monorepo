@@ -1,0 +1,14 @@
+{
+  "name": "@axvn-hoding/admin-dashboard",
+  "version": "1.0.0-alpha.1",
+  "private": true,
+  "description": "Portal quản trị RegTech & Giám sát dòng tiền regtech.axvn.vn",
+  "scripts": {
+    "build": "echo 'Building admin-dashboard...'",
+    "dev": "echo 'Starting dev server for admin-dashboard...'"
+  },
+  "dependencies": {
+    "@axvn-hoding/sdk": "workspace:*",
+    "@axvn-hoding/ui": "workspace:*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@axvn-hoding/demo-nextjs",
+  "version": "1.0.0-alpha.1",
+  "private": true,
+  "description": "Ví dụ DApp Next.js tích hợp @axvn-hoding/ui và @axvn-hoding/sdk",
+  "scripts": {
+    "build": "echo 'Building demo-nextjs...'",
+    "dev": "echo 'Starting dev server for demo-nextjs...'"
+  },
+  "dependencies": {
+    "@axvn-hoding/sdk": "workspace:*",
+    "@axvn-hoding/ui": "workspace:*"
+  }
+}
