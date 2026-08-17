@@ -1,0 +1,37 @@
+# CODEOWNERS — AXVN Holding
+# Tài liệu này khai báo quyền sở hữu mã nguồn theo từng thành viên HĐQT.
+# Mỗi thay đổi vào các đường dẫn dưới đây yêu cầu ít nhất 1 owner phê duyệt.
+#
+# Cú pháp: <đường dẫn> <@github-username> [<@github-username2> ...]
+# Xem: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# === Toàn bộ repository — yêu cầu ít nhất 2 HĐQT phê duyệt ===
+*   @hoangxuanbien
+
+# === Phân công sở hữu theo module (cập nhật khi có username GitHub đầy đủ) ===
+
+# Hoàng Xuân Biên — CFO (20%) — chịu trách nhiệm hạ tầng tài chính & kết nối
+/packages/connector/     @hoangxuanbien
+/packages/finance/       @hoangxuanbien
+/configs/                @hoangxuanbien
+
+# Nhâm Quốc Huân — Chủ tịch HĐQT (30%) — kiến trúc hệ thống & chiến lược
+# /packages/core/        @nhamquochuan
+# /architecture/         @nhamquochuan
+# /governance/           @nhamquochuan
+
+# Vũ Hoàng Linh — CTO (20%) — hạ tầng blockchain & smart contract
+# /packages/blockchain/  @vuhoanglinh
+# /contracts/            @vuhoanglinh
+# /network/              @vuhoanglinh
+
+# Trần Đức Nhân — COO (20%) — vận hành & DevOps
+# /packages/ops/         @tranducnhan
+# /.github/workflows/    @tranducnhan
+# /docker/               @tranducnhan
+
+# Nguyễn Thị Thu Hương — CLO (10%) — pháp lý & tuân thủ
+# /legal/                @nguyenthithuhuong
+# /compliance/           @nguyenthithuhuong
+# LICENSE                @nguyenthithuhuong
+# SECURITY.md            @nguyenthithuhuong
